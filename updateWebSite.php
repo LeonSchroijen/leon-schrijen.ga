@@ -1,4 +1,4 @@
 <?php
 
-passthru('./deploy.sh');
+passthru('sudo bash ./deploy.sh');
 exit();
